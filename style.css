@@ -1,0 +1,84 @@
+header{
+    text-align: end;
+    font-size: 0.9em;
+    margin: 20px;
+    padding: 20px;
+    min-width: 0;
+}
+body{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  min-width: fit-content;
+}
+
+#picha{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  padding: 20px;
+  font-size: 20px;
+  position: relative;
+
+}
+
+#sform{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  
+  
+}
+
+#searchbar{
+   
+  height: 44px;
+  position: relative;  
+  border: none;
+  padding: none;  
+  
+ 
+}
+
+#searchbar input{
+  outline: none;
+  border: none;
+  font-size: 16px;
+  width: 500px;
+  border-radius: 25px;
+  
+}
+
+input[type='text']::placeholder
+    {   
+        text-align: center;      
+    }
+
+#npt{
+  display: flex;
+  position: relative;
+  margin: 0;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+
+label{
+  width: 200px;
+  display:inline-block;
+  
+}
+
+#advsrch{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  
+}
+
